@@ -65,11 +65,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&to 0           &kp F1                &kp F2            &kp F3        &kp F4        &kp F5                           &kp F6    &kp F7    &kp F8     &kp F9      &kp F10        &kp EQUAL
-&kp TAB         &kp F11               &kp F12           &kp F13       &kp F14       &kp F15                          &kp F16   &kp F17   &kp F18    &kp F19     &kp F20        &kp MINUS
-&kp LEFT_SHIFT  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS    &kp UP        &kp C_NEXT    &none                            &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT   &kp SEMICOLON  &kp APOS
-&kp DELETE      &kp C_BRIGHTNESS_DEC  &kp LEFT          &kp DOWN      &kp RIGHT     &none    &none        &none      &kp LBKT  &kp RBKT  &kp COMMA  &kp PERIOD  &kp SLASH      &kp BACKSLASH
-                                      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &to 4    &kp SPACE    &kp ENTER  &none     &kp RGUI  &kp RALT   &kp RCTRL
+&to 0           &kp F1   &kp F2            &kp F3        &kp F4        &kp F5                                   &kp F6                       &kp F7    &kp F8     &kp F9      &kp F10        &kp EQUAL
+&kp TAB         &kp F11  &kp F12           &kp F13       &kp F14       &kp F15                                  &kp F16                      &kp F17   &kp F18    &kp F19     &kp F20        &kp MINUS
+&kp LEFT_SHIFT  &none    &kp C_PREVIOUS    &kp UP        &kp C_NEXT    &none                                    &kp LEFT                     &kp DOWN  &kp UP     &kp RIGHT   &kp SEMICOLON  &kp APOS
+&kp DELETE      &none    &kp LEFT          &kp DOWN      &kp RIGHT     &none    &kp C_PLAY_PAUSE    &bt BT_PRV  &kp LBKT                     &kp RBKT  &kp COMMA  &kp PERIOD  &kp SLASH      &kp BACKSLASH
+                         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &to 4    &kp SPACE           &kp ENTER   &kp RA(RC(RG(RIGHT_SHIFT)))  &kp RGUI  &kp RALT   &kp RCTRL
             >;
 
             sensor-bindings =
